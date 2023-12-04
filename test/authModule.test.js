@@ -122,17 +122,4 @@ describe('Express App Endpoints', () => {
     });
   });
 
-  // describe('Accessing protected routes without authentication', () => {
-  //   it('should return 401', async () => {
-  //     const response = await supertest(app)
-  //       .get(`/getUser/${userId}`);
-
-  //     expect(response.status).to.equal(401);
-  //     expect(response.body).to.have.property('error');
-  //     expect(response.body.error).to.equal('Unauthorized');
-  //   });
-
-  
-  // });
-
 });
